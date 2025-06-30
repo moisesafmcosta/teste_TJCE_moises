@@ -1,0 +1,10 @@
+/* Esconde o botão "Deploy" */
+.stDeployButton {
+    display: none;
+}
+
+/* Esconde o texto "Made with Streamlit" */
+.stApp footer:after {
+    content: "";
+    display: none;
+}
